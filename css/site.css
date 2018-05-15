@@ -1,0 +1,117 @@
+body{
+    background-image: url("../images/80s themed background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+.containerBorderPink{
+  background: #524A4A;
+  border: 5px solid #FF00FF;
+}
+
+.containerBorderWhite{
+  background: #fff;
+  width: 97.1%;
+  padding-top: 14px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+  }
+  .carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+
+  .carousel{
+    padding-bottom: 20px;
+  }
+
+  .button1 {
+    width: 90px;
+    height: 40px;
+  }
+
+  /* Modal Stuff */
+
+  .modal-dialog {
+    max-width:595px;
+  }
+
+/* Play Button */
+
+  .play {
+    filter: none !important;
+    -webkit-filter: grayscale(0) !important;
+    -webkit-transform: scale(1.01) !important;
+    cursor: pointer;
+    margin: -50% 0 0 40%;
+  }
+
+  .card-img-top{
+  /* height: 180px;
+  width: 285px;
+  padding-bottom: 0px; */
+  }
+
+  .card-body{
+  height: 280px;
+  padding-top: 0px;
+  max-width: 460px;
+  }
+
+  .card{
+  max-width: 460px;
+  }
+
+  .card-text{
+    height: 150px;
+  }
+
+  .card-title{
+  padding-top: 0px;
+  }
+
+/* Twitter Stuff */
+
+  .sidebar{
+ float: right;
+ height: auto;
+ padding-left: 5px;
+ padding-right: 5px;
+  }
+
+  .twitter-follow-button{
+    float: left;
+  }
+
+/* Facebook Stuff */
+.like{
+  height: 29px;
+  padding-left: 5px;
+}
+
+.w-100{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
