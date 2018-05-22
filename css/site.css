@@ -115,3 +115,8 @@ body{
   padding-right: 15px;
 }
 
+.col-sm10{
+  width: 460px;
+  padding: 0%;
+}
+
